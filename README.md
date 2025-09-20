@@ -4,8 +4,8 @@ I Created two Jupyter notebooks that explore a student performance dataset and t
 
 ## Files / Notebooks
   ### Analysis dataset.ipynb  
-     1. Exploratory Data Analysis (EDA)
-     2. Visualizations: boxplots 
+   1. Exploratory Data Analysis (EDA)
+   2. Visualizations: boxplots 
  
 ### Train Model.ipynb  
 
@@ -15,20 +15,20 @@ I Created two Jupyter notebooks that explore a student performance dataset and t
   Train/test split
   
 ### Models trained and compared:
-    DecisionTreeRegressor() (default) 
-    DecisionTreeRegressor(max_depth=4) with plot_tree(...)
-    to visualize the tree RandomForestRegressor()
-      
+  DecisionTreeRegressor() (default) 
+  DecisionTreeRegressor(max_depth=4) with plot_tree(...)
+  to visualize the tree RandomForestRegressor()
+    
   Evaluate models
 
 ## Dataset (columns observed)
-     Hours Studied (numeric)
-     Previous Scores (numeric)
-     Extracurricular Activities (categorical: Yes/No)
-     Sleep Hours (numeric)
-     Sample Question Papers Practiced (numeric)
-     Performance Index (numeric — target)
+   Hours Studied (numeric)
+   Previous Scores (numeric)
+   Extracurricular Activities (categorical: Yes/No)
+   Sleep Hours (numeric)
+   Sample Question Papers Practiced (numeric)
+   Performance Index (numeric — target)
 
 ## How to run
 # Clone the repo
-git clone https://github.com/Chetankumawat209/Student-performance-linear-regression-.git
+    git clone https://github.com/Chetankumawat209/Student-performance-linear-regression-.git
