@@ -9,14 +9,14 @@ I Created two Jupyter notebooks that explore a student performance dataset and t
  
 ### Train Model.ipynb  
 
-  Prepares features and target:
-        X = df.drop("Performance Index", axis=1)
+  Prepares features and target: <br>
+        X = df.drop("Performance Index", axis=1) <br>
         y = df["Performance Index"]
   Train/test split
   
-  Models trained and compared:
-      DecisionTreeRegressor() (default)
-      DecisionTreeRegressor(max_depth=4) with plot_tree(...)
+### Models trained and compared:
+      DecisionTreeRegressor() (default) <br>
+      DecisionTreeRegressor(max_depth=4) with plot_tree(...) <br>
       to visualize the tree RandomForestRegressor()
       
   Evaluate models
