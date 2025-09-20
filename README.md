@@ -15,19 +15,25 @@ I Created two Jupyter notebooks that explore a student performance dataset and t
   Train/test split
   
 ### Models trained and compared:
-  DecisionTreeRegressor() (default) 
-  DecisionTreeRegressor(max_depth=4) with plot_tree(...)
+  1. DecisionTreeRegressor() (default)
+  2. DecisionTreeRegressor(max_depth=4) with plot_tree(...)
   to visualize the tree RandomForestRegressor()
     
   Evaluate models
 
 ## Dataset (columns observed)
-   Hours Studied (numeric)
-   Previous Scores (numeric)
-   Extracurricular Activities (categorical: Yes/No)
-   Sleep Hours (numeric)
-   Sample Question Papers Practiced (numeric)
-   Performance Index (numeric — target)
+  1. Hours Studied (numeric)
+  2. Previous Scores (numeric)
+  3. Extracurricular Activities (categorical: Yes/No)
+  4. Sleep Hours (numeric)
+  5. Sample Question Papers Practiced (numeric)
+  6. Performance Index (numeric — target)
+
+## Tech Stack
+  1. Python
+  2. Pandas
+  3. Scikit-learn
+  4. Matplotlib / Seaborn
 
 ## How to run
 # Clone the repo
