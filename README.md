@@ -15,9 +15,9 @@ I Created two Jupyter notebooks that explore a student performance dataset and t
   Train/test split
   
 ### Models trained and compared:
-      DecisionTreeRegressor() (default) <br>
-      DecisionTreeRegressor(max_depth=4) with plot_tree(...) <br>
-      to visualize the tree RandomForestRegressor()
+    DecisionTreeRegressor() (default) 
+    DecisionTreeRegressor(max_depth=4) with plot_tree(...)
+    to visualize the tree RandomForestRegressor()
       
   Evaluate models
 
